@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TodoAppView.swift
 //  iOSTodoSample
 //
 //  Created by Lila Pustovoyt on 5/20/20.
@@ -8,14 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TodoAppView: View {
     var body: some View {
-        TodoAppView()
+        VStack {
+            Text("Hello,")
+            Text("World!")
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TodoAppView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TodoAppView()
     }
 }

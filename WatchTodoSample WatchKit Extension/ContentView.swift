@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iOSTodoSample
+//  WatchTodoSample WatchKit Extension
 //
 //  Created by Lila Pustovoyt on 5/20/20.
 //  Copyright © 2020 Lila Pustovoyt. All rights reserved.
