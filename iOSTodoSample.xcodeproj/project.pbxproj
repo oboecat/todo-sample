@@ -36,6 +36,34 @@
 		4B5AC6342475CCA1004599A4 /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6322475A469004599A4 /* TodoAppView.swift */; };
 		4B5AC6352475CCA1004599A4 /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6322475A469004599A4 /* TodoAppView.swift */; };
 		4B5AC6362475CCA2004599A4 /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6322475A469004599A4 /* TodoAppView.swift */; };
+		4B5AC63A2475DF4E004599A4 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6392475DF4E004599A4 /* TodoItemView.swift */; };
+		4B5AC63B2475DF4E004599A4 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6392475DF4E004599A4 /* TodoItemView.swift */; };
+		4B5AC63C2475DF4E004599A4 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6392475DF4E004599A4 /* TodoItemView.swift */; };
+		4B5AC63D2475DF4E004599A4 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC6392475DF4E004599A4 /* TodoItemView.swift */; };
+		4B5AC63F2475E210004599A4 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC63E2475E210004599A4 /* TodoListView.swift */; };
+		4B5AC6402475E210004599A4 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC63E2475E210004599A4 /* TodoListView.swift */; };
+		4B5AC6412475E210004599A4 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC63E2475E210004599A4 /* TodoListView.swift */; };
+		4B5AC6422475E210004599A4 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AC63E2475E210004599A4 /* TodoListView.swift */; };
+		4BB19DD1247D93FA0052EB6C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD0247D93FA0052EB6C /* Endpoint.swift */; };
+		4BB19DD2247D93FA0052EB6C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD0247D93FA0052EB6C /* Endpoint.swift */; };
+		4BB19DD3247D93FA0052EB6C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD0247D93FA0052EB6C /* Endpoint.swift */; };
+		4BB19DD4247D93FA0052EB6C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD0247D93FA0052EB6C /* Endpoint.swift */; };
+		4BB19DD6247D94BA0052EB6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD5247D94BA0052EB6C /* APIClient.swift */; };
+		4BB19DD7247D94BA0052EB6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD5247D94BA0052EB6C /* APIClient.swift */; };
+		4BB19DD8247D94BA0052EB6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD5247D94BA0052EB6C /* APIClient.swift */; };
+		4BB19DD9247D94BA0052EB6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DD5247D94BA0052EB6C /* APIClient.swift */; };
+		4BB19DDB247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
+		4BB19DDC247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
+		4BB19DDD247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
+		4BB19DDE247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
+		4BB5F3EE247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
+		4BB5F3EF247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
+		4BB5F3F0247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
+		4BB5F3F1247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
+		4BB5F3F32478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
+		4BB5F3F42478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
+		4BB5F3F52478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
+		4BB5F3F62478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +145,15 @@
 		4B5AC62C2475A435004599A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5AC62D2475A435004599A4 /* MacTodoSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTodoSample.entitlements; sourceTree = "<group>"; };
 		4B5AC6322475A469004599A4 /* TodoAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppView.swift; sourceTree = "<group>"; };
+		4B5AC6372475DF4E004599A4 /* WatchTodoSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchTodoSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B5AC6382475DF4E004599A4 /* WatchTodoSample WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchTodoSample WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B5AC6392475DF4E004599A4 /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		4B5AC63E2475E210004599A4 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		4BB19DD0247D93FA0052EB6C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		4BB19DD5247D94BA0052EB6C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		4BB19DDA247DB63F0052EB6C /* TodoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoVM.swift; sourceTree = "<group>"; };
+		4BB5F3ED247837BC00E43F96 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		4BB5F3F22478393500E43F96 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,9 +313,26 @@
 		4B5AC6312475A44A004599A4 /* TodoSample */ = {
 			isa = PBXGroup;
 			children = (
-				4B5AC6322475A469004599A4 /* TodoAppView.swift */,
+				4BB5F3ED247837BC00E43F96 /* Todo.swift */,
+				4BB5F3F22478393500E43F96 /* Model.swift */,
+				4BB19DDA247DB63F0052EB6C /* TodoVM.swift */,
+				4BB19DD5247D94BA0052EB6C /* APIClient.swift */,
+				4BB19DD0247D93FA0052EB6C /* Endpoint.swift */,
+				4BB5F3EB2478378400E43F96 /* Views */,
 			);
 			path = TodoSample;
+			sourceTree = "<group>";
+		};
+		4BB5F3EB2478378400E43F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B5AC6322475A469004599A4 /* TodoAppView.swift */,
+				4B5AC6392475DF4E004599A4 /* TodoItemView.swift */,
+				4B5AC63E2475E210004599A4 /* TodoListView.swift */,
+				4B5AC6372475DF4E004599A4 /* WatchTodoSample-Bridging-Header.h */,
+				4B5AC6382475DF4E004599A4 /* WatchTodoSample WatchKit App-Bridging-Header.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,9 +455,11 @@
 					};
 					4B5AC5D52475A361004599A4 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					4B5AC5D82475A361004599A4 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					4B5AC5E72475A362004599A4 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -502,10 +558,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB5F3EE247837BC00E43F96 /* Todo.swift in Sources */,
 				4B5AC5C12475A33F004599A4 /* AppDelegate.swift in Sources */,
+				4BB19DDB247DB63F0052EB6C /* TodoVM.swift in Sources */,
 				4B5AC5C32475A33F004599A4 /* SceneDelegate.swift in Sources */,
+				4B5AC63F2475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DD1247D93FA0052EB6C /* Endpoint.swift in Sources */,
+				4BB19DD6247D94BA0052EB6C /* APIClient.swift in Sources */,
 				4B5AC6332475A469004599A4 /* TodoAppView.swift in Sources */,
 				4B5AC5C52475A33F004599A4 /* ContentView.swift in Sources */,
+				4B5AC63A2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4BB5F3F32478393500E43F96 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,10 +576,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB5F3EF247837BC00E43F96 /* Todo.swift in Sources */,
 				4B5AC5F02475A362004599A4 /* HostingController.swift in Sources */,
+				4BB19DDC247DB63F0052EB6C /* TodoVM.swift in Sources */,
 				4B5AC5EE2475A362004599A4 /* ContentView.swift in Sources */,
+				4B5AC6402475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DD2247D93FA0052EB6C /* Endpoint.swift in Sources */,
+				4BB19DD7247D94BA0052EB6C /* APIClient.swift in Sources */,
 				4B5AC6342475CCA1004599A4 /* TodoAppView.swift in Sources */,
 				4B5AC5F22475A362004599A4 /* ExtensionDelegate.swift in Sources */,
+				4B5AC63B2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4BB5F3F42478393500E43F96 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +594,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB19DDD247DB63F0052EB6C /* TodoVM.swift in Sources */,
+				4BB5F3F52478393500E43F96 /* Model.swift in Sources */,
+				4BB19DD3247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4B5AC60D2475A3DC004599A4 /* ContentView.swift in Sources */,
+				4BB19DD8247D94BA0052EB6C /* APIClient.swift in Sources */,
+				4BB5F3F0247837BC00E43F96 /* Todo.swift in Sources */,
+				4B5AC63C2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4B5AC6412475E210004599A4 /* TodoListView.swift in Sources */,
 				4B5AC60B2475A3DC004599A4 /* AppDelegate.swift in Sources */,
 				4B5AC6352475CCA1004599A4 /* TodoAppView.swift in Sources */,
 			);
@@ -534,7 +611,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB19DDE247DB63F0052EB6C /* TodoVM.swift in Sources */,
+				4BB5F3F62478393500E43F96 /* Model.swift in Sources */,
+				4BB19DD4247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4B5AC6232475A434004599A4 /* ContentView.swift in Sources */,
+				4BB19DD9247D94BA0052EB6C /* APIClient.swift in Sources */,
+				4BB5F3F1247837BC00E43F96 /* Todo.swift in Sources */,
+				4B5AC63D2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4B5AC6422475E210004599A4 /* TodoListView.swift in Sources */,
 				4B5AC6212475A434004599A4 /* AppDelegate.swift in Sources */,
 				4B5AC6362475CCA2004599A4 /* TodoAppView.swift in Sources */,
 			);
@@ -798,14 +882,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFA7PTYNT4;
 				IBSC_MODULE = WatchTodoSample_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.2;
@@ -817,14 +909,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFA7PTYNT4;
 				IBSC_MODULE = WatchTodoSample_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample WatchKit App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.2;
@@ -834,12 +933,20 @@
 		4B5AC6022475A363004599A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -847,12 +954,19 @@
 		4B5AC6032475A363004599A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -10,10 +10,7 @@ import SwiftUI
 
 struct TodoAppView: View {
     var body: some View {
-        VStack {
-            Text("Hello,")
-            Text("World!")
-        }
+        Text("Hello world")
     }
 }
 
