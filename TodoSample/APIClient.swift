@@ -17,15 +17,11 @@ struct APIClient {
     }
     
     func addNewTodo(_ todo: Todo) -> AnyPublisher<Todo, Never> {
-        return Endpoint<Todo>(method: .post, url: base, body: todo).fetch()
+        return Endpoint<Todo>(method: .post, url: base, encodableBody: todo).fetch()
     }
     
     func updateTodo(_ todo: Todo) -> AnyPublisher<Todo, Never> {
-        let updatedTodoParams = [
-            "body": todo.body,
-            "completed": "\(todo.completed)"
-        ]
-        return Endpoint<Todo>(method: .patch, url: base.appendingPathComponent("\(todo.id)"), body: updatedTodoParams).fetch()
+        return Endpoint<Todo>(method: .patch, url: base.appendingPathComponent("\(todo.id)"), encodableBody: todo).fetch()
     }
     
     func deleteTodo(_ todo: Todo) -> AnyPublisher<Todo, Never> {

@@ -20,8 +20,15 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Lila Pustovoyt. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
@@ -30,13 +37,6 @@
 	<string>NSApplication</string>
 	<key>NSSupportsAutomaticTermination</key>
 	<true/>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsLocalNetworking</key>
-		<true/>
-	</dict>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
 </dict>

@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct TodoListView: View {
+    @EnvironmentObject var model: TodoVM
     @Binding var todos: [Todo]
     
     var body: some View {
@@ -29,11 +30,21 @@ struct TodoListView: View {
                 }
                 .padding(.horizontal)
                 
-                ForEach(self.todos.indices, id: \.self) { idx in
-                    TodoItemView(todo: self.$todos[idx])
+                ForEach(self.todos) { todo in
+                    TodoItemView(todo: todo)
                 }
+                
+                NewTodoItemView()
             }
             .listStyle(DefaultListStyle())
+            
+            Button(action: {
+                self.model.getTodos()
+            }) {
+                Text("Refresh")
+            }
+            
+            LoginButtonView()
         }
     }
 }

@@ -9,12 +9,17 @@
 import SwiftUI
 
 struct TodoItemView: View {
-    @Binding var todo: Todo
+    @EnvironmentObject var model: TodoVM
+    @State var todoBodyDraft: String = ""
+    @State var completed = false
+    var todo: Todo
     
     var body: some View {
         HStack {
             Button(action: {
-                self.todo.completed.toggle()
+                var updatedTodo = self.todo
+                updatedTodo.completed.toggle()
+                self.model.updateTodo(updatedTodo)
             }) {
                 if self.todo.completed {
 //                    Image(systemName: "largecircle.fill.circle")
@@ -28,7 +33,16 @@ struct TodoItemView: View {
                         .foregroundColor(.gray)
                 }
             }
-            Text(todo.body)
+
+            TextField("To-do", text: $todoBodyDraft, onCommit: {
+                var updatedTodo = self.todo
+                updatedTodo.body = self.todoBodyDraft
+                self.model.updateTodo(updatedTodo)
+            })
+                .onAppear {
+                    self.todoBodyDraft = self.todo.body
+                }
+
             Spacer()
         }
     }
@@ -36,7 +50,7 @@ struct TodoItemView: View {
 
 struct TodoItemView_Previews: PreviewProvider {
     static var previews: some View {
-        TodoItemView(todo: .constant(Todo(body: "Buy new cat toy", completed: false, id: 0)))
+        TodoItemView(todo: Todo(body: "Buy new cat toy", completed: false, id: 0))
             .previewLayout(.fixed(width: 300, height: 40))
     }
 }

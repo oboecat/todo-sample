@@ -56,14 +56,26 @@
 		4BB19DDC247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
 		4BB19DDD247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
 		4BB19DDE247DB63F0052EB6C /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDA247DB63F0052EB6C /* TodoVM.swift */; };
+		4BB19DE0247F05EB0052EB6C /* NewTodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */; };
+		4BB19DE1247F05EB0052EB6C /* NewTodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */; };
+		4BB19DE2247F05EB0052EB6C /* NewTodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */; };
+		4BB19DE3247F05EB0052EB6C /* NewTodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */; };
+		4BB19DE524804A190052EB6C /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DE424804A190052EB6C /* LoginButtonView.swift */; };
+		4BB19DE624804A190052EB6C /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DE424804A190052EB6C /* LoginButtonView.swift */; };
+		4BB19DE724804A190052EB6C /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DE424804A190052EB6C /* LoginButtonView.swift */; };
+		4BB19DE824804A190052EB6C /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DE424804A190052EB6C /* LoginButtonView.swift */; };
+		4BB19DF424804F7C0052EB6C /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */; };
+		4BB19DF524804F7C0052EB6C /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */; };
+		4BB19DF624804F7C0052EB6C /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */; };
+		4BB19DF724804F7C0052EB6C /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */; };
+		4BB19DF9248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */; };
+		4BB19DFA248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */; };
+		4BB19DFB248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */; };
+		4BB19DFC248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */; };
 		4BB5F3EE247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
 		4BB5F3EF247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
 		4BB5F3F0247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
 		4BB5F3F1247837BC00E43F96 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3ED247837BC00E43F96 /* Todo.swift */; };
-		4BB5F3F32478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
-		4BB5F3F42478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
-		4BB5F3F52478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
-		4BB5F3F62478393500E43F96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB5F3F22478393500E43F96 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,8 +164,12 @@
 		4BB19DD0247D93FA0052EB6C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		4BB19DD5247D94BA0052EB6C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		4BB19DDA247DB63F0052EB6C /* TodoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoVM.swift; sourceTree = "<group>"; };
+		4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoItemView.swift; sourceTree = "<group>"; };
+		4BB19DE424804A190052EB6C /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleDelegate.swift; sourceTree = "<group>"; };
 		4BB5F3ED247837BC00E43F96 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		4BB5F3F22478393500E43F96 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4BC7F1122480633C001BB4A5 /* iOSTodoSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSTodoSample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +233,7 @@
 		4B5AC5BF2475A33F004599A4 /* iOSTodoSample */ = {
 			isa = PBXGroup;
 			children = (
+				4BC7F1122480633C001BB4A5 /* iOSTodoSample.entitlements */,
 				4B5AC5C02475A33F004599A4 /* AppDelegate.swift */,
 				4B5AC5C22475A33F004599A4 /* SceneDelegate.swift */,
 				4B5AC5C42475A33F004599A4 /* ContentView.swift */,
@@ -314,8 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				4BB5F3ED247837BC00E43F96 /* Todo.swift */,
-				4BB5F3F22478393500E43F96 /* Model.swift */,
 				4BB19DDA247DB63F0052EB6C /* TodoVM.swift */,
+				4BB19DF8248054FC0052EB6C /* SignInWithAppleDelegate.swift */,
 				4BB19DD5247D94BA0052EB6C /* APIClient.swift */,
 				4BB19DD0247D93FA0052EB6C /* Endpoint.swift */,
 				4BB5F3EB2478378400E43F96 /* Views */,
@@ -328,7 +345,10 @@
 			children = (
 				4B5AC6322475A469004599A4 /* TodoAppView.swift */,
 				4B5AC6392475DF4E004599A4 /* TodoItemView.swift */,
+				4BB19DDF247F05EB0052EB6C /* NewTodoItemView.swift */,
 				4B5AC63E2475E210004599A4 /* TodoListView.swift */,
+				4BB19DF324804F7C0052EB6C /* SignInWithApple.swift */,
+				4BB19DE424804A190052EB6C /* LoginButtonView.swift */,
 				4B5AC6372475DF4E004599A4 /* WatchTodoSample-Bridging-Header.h */,
 				4B5AC6382475DF4E004599A4 /* WatchTodoSample WatchKit App-Bridging-Header.h */,
 			);
@@ -562,13 +582,16 @@
 				4B5AC5C12475A33F004599A4 /* AppDelegate.swift in Sources */,
 				4BB19DDB247DB63F0052EB6C /* TodoVM.swift in Sources */,
 				4B5AC5C32475A33F004599A4 /* SceneDelegate.swift in Sources */,
+				4BB19DE524804A190052EB6C /* LoginButtonView.swift in Sources */,
+				4BB19DF9248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */,
 				4B5AC63F2475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DE0247F05EB0052EB6C /* NewTodoItemView.swift in Sources */,
 				4BB19DD1247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4BB19DD6247D94BA0052EB6C /* APIClient.swift in Sources */,
 				4B5AC6332475A469004599A4 /* TodoAppView.swift in Sources */,
+				4BB19DF424804F7C0052EB6C /* SignInWithApple.swift in Sources */,
 				4B5AC5C52475A33F004599A4 /* ContentView.swift in Sources */,
 				4B5AC63A2475DF4E004599A4 /* TodoItemView.swift in Sources */,
-				4BB5F3F32478393500E43F96 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,13 +603,16 @@
 				4B5AC5F02475A362004599A4 /* HostingController.swift in Sources */,
 				4BB19DDC247DB63F0052EB6C /* TodoVM.swift in Sources */,
 				4B5AC5EE2475A362004599A4 /* ContentView.swift in Sources */,
+				4BB19DE624804A190052EB6C /* LoginButtonView.swift in Sources */,
+				4BB19DFA248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */,
 				4B5AC6402475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DE1247F05EB0052EB6C /* NewTodoItemView.swift in Sources */,
 				4BB19DD2247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4BB19DD7247D94BA0052EB6C /* APIClient.swift in Sources */,
 				4B5AC6342475CCA1004599A4 /* TodoAppView.swift in Sources */,
+				4BB19DF524804F7C0052EB6C /* SignInWithApple.swift in Sources */,
 				4B5AC5F22475A362004599A4 /* ExtensionDelegate.swift in Sources */,
 				4B5AC63B2475DF4E004599A4 /* TodoItemView.swift in Sources */,
-				4BB5F3F42478393500E43F96 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,14 +621,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB19DDD247DB63F0052EB6C /* TodoVM.swift in Sources */,
-				4BB5F3F52478393500E43F96 /* Model.swift in Sources */,
 				4BB19DD3247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4B5AC60D2475A3DC004599A4 /* ContentView.swift in Sources */,
 				4BB19DD8247D94BA0052EB6C /* APIClient.swift in Sources */,
+				4BB19DE2247F05EB0052EB6C /* NewTodoItemView.swift in Sources */,
 				4BB5F3F0247837BC00E43F96 /* Todo.swift in Sources */,
 				4B5AC63C2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4BB19DFB248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */,
 				4B5AC6412475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DE724804A190052EB6C /* LoginButtonView.swift in Sources */,
 				4B5AC60B2475A3DC004599A4 /* AppDelegate.swift in Sources */,
+				4BB19DF624804F7C0052EB6C /* SignInWithApple.swift in Sources */,
 				4B5AC6352475CCA1004599A4 /* TodoAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,14 +641,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB19DDE247DB63F0052EB6C /* TodoVM.swift in Sources */,
-				4BB5F3F62478393500E43F96 /* Model.swift in Sources */,
 				4BB19DD4247D93FA0052EB6C /* Endpoint.swift in Sources */,
 				4B5AC6232475A434004599A4 /* ContentView.swift in Sources */,
 				4BB19DD9247D94BA0052EB6C /* APIClient.swift in Sources */,
+				4BB19DE3247F05EB0052EB6C /* NewTodoItemView.swift in Sources */,
 				4BB5F3F1247837BC00E43F96 /* Todo.swift in Sources */,
 				4B5AC63D2475DF4E004599A4 /* TodoItemView.swift in Sources */,
+				4BB19DFC248054FC0052EB6C /* SignInWithAppleDelegate.swift in Sources */,
 				4B5AC6422475E210004599A4 /* TodoListView.swift in Sources */,
+				4BB19DE824804A190052EB6C /* LoginButtonView.swift in Sources */,
 				4B5AC6212475A434004599A4 /* AppDelegate.swift in Sources */,
+				4BB19DF724804F7C0052EB6C /* SignInWithApple.swift in Sources */,
 				4B5AC6362475CCA2004599A4 /* TodoAppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,16 +825,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSTodoSample/iOSTodoSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOSTodoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.iOSTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.iOSTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -813,16 +846,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSTodoSample/iOSTodoSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOSTodoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.iOSTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.iOSTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -835,7 +869,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchTodoSample WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -843,7 +877,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -859,7 +893,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchTodoSample WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -867,7 +901,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -884,7 +918,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				IBSC_MODULE = WatchTodoSample_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -892,7 +926,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -911,7 +945,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				IBSC_MODULE = WatchTodoSample_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchTodoSample WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -919,7 +953,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -936,14 +970,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -957,14 +991,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.WatchTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.WatchTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TodoSample/WatchTodoSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -977,14 +1011,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TVTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TVTodoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.TVTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.TVTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
@@ -999,14 +1033,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TVTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TVTodoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.TVTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.TVTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
@@ -1023,7 +1057,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MacTodoSample/Info.plist;
@@ -1032,7 +1066,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.MacTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.MacTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1047,7 +1081,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTodoSample/Preview Content\"";
-				DEVELOPMENT_TEAM = WFA7PTYNT4;
+				DEVELOPMENT_TEAM = 9AK3KERCDP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MacTodoSample/Info.plist;
@@ -1056,7 +1090,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = me.pustovoyt.example.MacTodoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.goph.example.MacTodoSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;

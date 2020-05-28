@@ -35,7 +35,7 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
     
     init(method: Method, url: URL, headers: [String: String] = [String: String](), body: Data? = nil) {
         var headers = headers
-        headers["Content-Type"] = "application/json"
+        headers["Accepts"] = "application/json"
         
         self.method = method
         self.url = url
@@ -43,7 +43,7 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
         self.body = body
     }
     
-    init<T>(method: Method, url: URL, headers: [String: String] = [String: String](), body: T) where T: Encodable {
+    init<T>(method: Method, url: URL, headers: [String: String] = [String: String](), encodableBody body: T) where T: Encodable {
         var headers = headers
         headers["Content-Type"] = "application/json"
         
