@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct LogoutButtonView: View {
+    @Environment(\.userInteractor) var userInteractor: UserInteractor
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            self.userInteractor.logout()
+        }) {
+            Text("Sign out")
+        }
     }
 }
 

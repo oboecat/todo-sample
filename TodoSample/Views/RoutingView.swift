@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct RoutingView: View {
+    @EnvironmentObject var store: AppState
+    @Environment(\.userInteractor) var userInteractor: UserInteractor
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            if store.isLoggedIn {
+                TodoListView()
+            } else {
+                LoginButtonView()
+            }
+        }
+        .onAppear {
+            self.userInteractor.checkSession()
+        }
     }
 }
 

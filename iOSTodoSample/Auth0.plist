@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Auth0.plist
-   iOSTodoSample
+<!-- Auth0.plist -->
 
-   Created by Lila Pustovoyt on 6/2/20.
-   Copyright (c) 2020 Lila Pustovoyt. All rights reserved.
--->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+  <key>ClientId</key>
+  <string>cSbBzvtsmI7rrKX2n34RrTOivujEswj3</string>
+  <key>Domain</key>
+  <string>auth-test-pro.auth0.com</string>
+</dict>
 </plist>

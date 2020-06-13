@@ -9,19 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var model: TodoVM
     
     var body: some View {
-        TodoListView(todos: $model.todos)
-            .onAppear {
-                self.model.start()
-            }
-        
+        TodoAppView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environmentObject(TodoVM())
+        ContentView()
     }
 }

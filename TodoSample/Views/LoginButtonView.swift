@@ -10,26 +10,21 @@ import SwiftUI
 import AuthenticationServices
 
 struct LoginButtonView: View {
-    @State var signInWithAppleDelegate: SignInWithAppleDelegate!
+    @Environment(\.userInteractor) var userInteractor: UserInteractor
     
     var body: some View {
-        SignInWithApple()
-            .frame(width: 280, height: 60)
-            .onTapGesture {
-                // Create the authorization request
-                let request = ASAuthorizationAppleIDProvider().createRequest()
-                
-                // Set scopes
-                request.requestedScopes = [.fullName, .email]
-                
-                self.signInWithAppleDelegate = SignInWithAppleDelegate()
-                
-                // Setup a controller to display the authorization flow
-                let controller = ASAuthorizationController(authorizationRequests: [request])
-                controller.delegate = self.signInWithAppleDelegate
-                
-                controller.performRequests()
-            }
+//        SignInWithApple()
+//            .frame(width: 280, height: 60)
+//            .onTapGesture {
+//                print("Tap")
+//                self.userInteractor.login()
+//            }
+        Button(action: {
+            print("Tap")
+            self.userInteractor.login()
+        }) {
+            Text("Sign in with Apple")
+        }
     }
 }
 

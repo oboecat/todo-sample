@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import AuthenticationServices
+import Auth0
+
+class AppState: ObservableObject {
+    @Published var isLoggedIn: Bool = false
+    @Published var user: UserInfo?
+    @Published var todos: [Todo] = []
+}

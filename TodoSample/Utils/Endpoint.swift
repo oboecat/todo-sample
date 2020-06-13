@@ -8,8 +8,11 @@
 
 import Foundation
 import Combine
+import Auth0
 
 struct Endpoint<ResponseType> where ResponseType: Decodable {
+    typealias Headers = [String: String]
+    
     enum Method: String {
         case get = "GET"
         case post = "POST"
@@ -19,7 +22,7 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
     
     let method: Method
     let url: URL
-    let headers: [String: String]
+    var headers: Headers
     let body: Data?
     
     private var request: URLRequest {
@@ -33,7 +36,7 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
         }
     }
     
-    init(method: Method, url: URL, headers: [String: String] = [String: String](), body: Data? = nil) {
+    init(method: Method, url: URL, headers: Headers = Headers(), body: Data? = nil) {
         var headers = headers
         headers["Accepts"] = "application/json"
         
@@ -43,7 +46,7 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
         self.body = body
     }
     
-    init<T>(method: Method, url: URL, headers: [String: String] = [String: String](), encodableBody body: T) where T: Encodable {
+    init<T>(method: Method, url: URL, headers: Headers = Headers(), encodableBody body: T) where T: Encodable {
         var headers = headers
         headers["Content-Type"] = "application/json"
         
@@ -52,8 +55,16 @@ struct Endpoint<ResponseType> where ResponseType: Decodable {
         self.init(method: method, url: url, headers: headers, body: bodyJSON)
     }
     
+    func withAuth(token: String) -> Endpoint<ResponseType> {
+        var endpointWithAuth = self
+        endpointWithAuth.headers["Authorization"] = "Bearer \(token)"
+        
+        return endpointWithAuth
+    }
+    
     func fetch() -> AnyPublisher<ResponseType, Never> {
-        return URLSession.shared.dataTaskPublisher(for: request)
+        URLSession.shared.dataTaskPublisher(for: request)
+            .print()
             .map { $0.data }
             .decode(type: ResponseType.self, decoder: JSONDecoder())
             .assertNoFailure()

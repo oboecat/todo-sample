@@ -1,0 +1,6 @@
+framework module Pods_iOSTodoSample {
+  umbrella header "Pods-iOSTodoSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

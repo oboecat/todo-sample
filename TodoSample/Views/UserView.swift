@@ -7,15 +7,26 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct UserView: View {
+    @EnvironmentObject var store: AppState
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .center) {
+            WebImage(url: store.user!.picture!)
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+            Text("\(store.user!.name ?? "anonymous")")
+        }
+        .frame(width: nil, height: 32, alignment: .leading)
     }
 }
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
         UserView()
+        .environmentObject(AppState())
     }
 }

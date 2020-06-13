@@ -9,34 +9,38 @@
 import SwiftUI
 
 struct NewTodoItemView: View {
-    @EnvironmentObject var model: TodoVM
+    @Environment(\.todosInteractor) var interactor: TodoInteractor
     @State var bodyDraft = ""
     @State var completed = false
     
     var body: some View {
         HStack {
-            Button(action: {
-                self.completed.toggle()
-            }) {
-                if self.completed {
-//                    Image(systemName: "largecircle.fill.circle")
-//                        .foregroundColor(.yellow)
-                    Text("X")
-                        .foregroundColor(.green)
-                } else {
-//                    Image(systemName: "circle")
+//            Button(action: {
+//                self.completed.toggle()
+//            }) {
+//                if self.completed {
+//                    Text("X")
+//                        .foregroundColor(.green)
+//                } else {
+//                    Text("O")
 //                        .foregroundColor(.gray)
-                    Text("O")
-                        .foregroundColor(.gray)
-                }
-            }
+//                }
+//            }
+            
+            CircleToggleView(isOn: completed)
+                .onTapGesture { self.completed.toggle() }
+            
             
             TextField("New to-do", text: $bodyDraft, onCommit: {
-                let newTodo = Todo(body: self.bodyDraft, completed: self.completed, id: -1)
+                guard self.bodyDraft.count > 0 else {
+                    return
+                }
+                let newTodo = Todo(body: self.bodyDraft, completed: self.completed, id: "null")
                 self.bodyDraft = ""
                 self.completed = false
-                self.model.addNewTodo(newTodo)
+                self.interactor.addNewTodo(newTodo)
             })
+            .textFieldStyle(PlainTextFieldStyle())
             
             Spacer()
         }

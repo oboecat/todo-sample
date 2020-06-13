@@ -7,50 +7,52 @@
 //
 
 import SwiftUI
+import Combine
 
 struct TodoListView: View {
-    @EnvironmentObject var model: TodoVM
-    @Binding var todos: [Todo]
+    @Environment(\.todosInteractor) var interactor: TodoInteractor
+    @EnvironmentObject var store: AppState
+    @State private var cancelBag = Set<AnyCancellable>()
     
     var body: some View {
-        VStack {
-            HStack {
-                Text("Todos")
-                    .font(.title)
+//        Section(header: TodoListTitleView(), footer: HeaderView()) {
+//            ScrollView(.vertical, showsIndicators: true) {
+//                VStack {
+//                    if self.store.todos.count > 0 {
+//                        ForEach(self.store.todos, id: \.id) { todo in
+//                            TodoItemView(todo: todo)
+//                        }
+//
+//                        NewTodoItemView()
+//                    }
+//                    Spacer()
+//                }
+//            }
+//        }
+        VStack(alignment: .leading) {
+            TodoListTitleView()
+            if self.store.todos.count > 0 {
+                ScrollView(.vertical, showsIndicators: true) {
+                    ForEach(self.store.todos, id: \.id) { todo in
+                        TodoItemView(todo: todo)
+                    }
+                    NewTodoItemView()
+                }
+            } else {
                 Spacer()
             }
-            .padding([.horizontal, .top])
-//            .pickerStyle(SegmentedPickerStyle())
-            
-            List {
-                Picker(selection: .constant(0), label: Text("Foo")) {
-                    Text("All").tag(0)
-                    Text("Pending").tag(1)
-                    Text("Completed").tag(2)
-                }
-                .padding(.horizontal)
-                
-                ForEach(self.todos) { todo in
-                    TodoItemView(todo: todo)
-                }
-                
-                NewTodoItemView()
-            }
-            .listStyle(DefaultListStyle())
-            
-            Button(action: {
-                self.model.getTodos()
-            }) {
-                Text("Refresh")
-            }
-            
-            LoginButtonView()
+            HeaderView()
+        }
+        .padding()
+        .onAppear {
+            self.interactor.pollTodos()
+                .store(in: &self.cancelBag)
         }
     }
 }
 
 struct TodoListView_Previews: PreviewProvider {
     static var previews: some View {
-        TodoListView(todos: .constant([Todo(body: "Water plants", completed: false, id: 0)]))
+        TodoListView()
     }
 }

@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 import AuthenticationServices
 
+#if !os(macOS)
 final class SignInWithApple: UIViewRepresentable {
     func makeUIView(context: Context) -> ASAuthorizationAppleIDButton {
         return ASAuthorizationAppleIDButton()
@@ -18,3 +19,15 @@ final class SignInWithApple: UIViewRepresentable {
     func updateUIView(_ uiView: ASAuthorizationAppleIDButton, context: Context) {
     }
 }
+#endif
+
+#if os(macOS)
+final class SignInWithApple: NSViewRepresentable {
+    func makeNSView(context: Context) -> ASAuthorizationAppleIDButton {
+        return ASAuthorizationAppleIDButton()
+    }
+    
+    func updateNSView(_ nsView: ASAuthorizationAppleIDButton, context: Context) {
+    }
+}
+#endif

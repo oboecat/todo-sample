@@ -11,5 +11,5 @@ import Foundation
 struct Todo: Codable, Identifiable {
     var body: String
     var completed: Bool
-    var id: Int
+    var id: String
 }
